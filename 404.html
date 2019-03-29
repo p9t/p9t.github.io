@@ -25,7 +25,8 @@
   <button onclick="window.location.href=''">Go home</button>
   <script>
     if (window.location.href.length > 21) {
-      alert(window.location.href.slice(21));
+      var sub = window.location.href.slice(22);
+      window.location.href = "https://www.reddit.com/me/m/" + sub;
     }
   </script>
 </body>
